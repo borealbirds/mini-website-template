@@ -6,7 +6,7 @@ This is the methods page.
 
 ## Data
 
-Dtaa was used of course.
+Data was used of course.
 
 ## Models
 
