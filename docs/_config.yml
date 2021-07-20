@@ -1,12 +1,21 @@
+## Mini Website Template
+
+## Title of the website, this will be used in the navigation and meta
 title: "Mini Website Template"
+## Description to be used in the meta info of the pages
 description: "Boreal bird models by the Boreal Avian Modelling Project"
+## Author, this goes into the footer of the pages
 author: "Boreal Avian Modelling Project"
 
+## Base URL is the repository name wit ha leading slash
 baseurl: /mini-website-template
+## URL is the root domain/subdomain
 url: https://borealbirds.github.io
 
+## Logo is a small image that gets displayed in the left corner of the navigation
 logo: https://borealbirds.github.io/logo.svg
 
+## Top navigation: include the name and link for each tab here
 navigation:
   - name: Home
     link: /
@@ -17,19 +26,16 @@ navigation:
   - name: Contact
     link: https://borealbirds.ualberta.ca/
 
+## No need to touch things here unless you know what you are doing
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE.md"]
 timezone: America/Edmonton
-
 encoding: UTF-8
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-#categories: ["Etc", "Talks", "Papers", "Code", "Tutorials"]
-
 gems:
   - jekyll-feed
   - jekyll-sitemap

@@ -1,6 +1,7 @@
 # mini-website-template
-A starting point for templating mini websited using R and Jekyll
 
-http://www.csrhymes.com/bulma-clean-theme/
+> A starting point for templating mini websited using R and Jekyll
 
-https://github.com/chrisrhymes/bulma-clean-theme
+The `docs` folder gets deployed by GitHub pages, the readme inside explains the Jekyll templating setup.
+
+The `R` directory contains the script that can be used to write the species specific pages. See the explanation inside the readme file.
