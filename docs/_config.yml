@@ -1,0 +1,34 @@
+title: "BAM National Models"
+description: "Boreal bird models by the Boreal Avian Modelling Project"
+author: "Boreal Avian Modelling Project"
+
+baseurl: https://borealbirds.github.io/GNM
+
+logo: https://borealbirds.github.io/logo.svg
+
+navigation:
+  - name: Home
+    link: /
+  - name: Species
+    link: /species/
+  - name: Methods
+    link: /methods/
+  - name: Contact
+    link: https://borealbirds.ualberta.ca/
+
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE.md"]
+timezone: America/Edmonton
+
+encoding: UTF-8
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+#categories: ["Etc", "Talks", "Papers", "Code", "Tutorials"]
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
