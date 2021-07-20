@@ -2,7 +2,8 @@ title: "BAM National Models"
 description: "Boreal bird models by the Boreal Avian Modelling Project"
 author: "Boreal Avian Modelling Project"
 
-baseurl: https://borealbirds.github.io/GNM
+baseurl: /mini-website-template
+url: https://borealbirds.github.io
 
 logo: https://borealbirds.github.io/logo.svg
 
