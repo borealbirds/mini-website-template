@@ -1,6 +1,6 @@
 # mini-website-template
 
-> A starting point for templating mini websited using R and Jekyll
+> A starting point for templating mini websites using R and Jekyll
 
 The `docs` folder gets deployed by GitHub pages, the [readme](docs/README.md) inside explains the Jekyll templating setup.
 
